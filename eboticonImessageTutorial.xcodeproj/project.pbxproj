@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C673396B2041DA63000DD09C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C673396A2041DA63000DD09C /* Assets.xcassets */; };
+		C67339722041DA63000DD09C /* eboticonImessageTutorial MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C67339712041DA63000DD09C /* eboticonImessageTutorial MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C67339772041DA63000DD09C /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67339762041DA63000DD09C /* Messages.framework */; };
+		C673397A2041DA63000DD09C /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67339792041DA63000DD09C /* MessagesViewController.swift */; };
+		C673397D2041DA63000DD09C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C673397B2041DA63000DD09C /* MainInterface.storyboard */; };
+		C673397F2041DA63000DD09C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C673397E2041DA63000DD09C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C67339732041DA63000DD09C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C67339612041DA62000DD09C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C67339702041DA63000DD09C;
+			remoteInfo = "eboticonImessageTutorial MessagesExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C67339862041DA63000DD09C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C67339722041DA63000DD09C /* eboticonImessageTutorial MessagesExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C67339672041DA63000DD09C /* eboticonImessageTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eboticonImessageTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C673396A2041DA63000DD09C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C673396C2041DA63000DD09C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C67339712041DA63000DD09C /* eboticonImessageTutorial MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "eboticonImessageTutorial MessagesExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67339762041DA63000DD09C /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		C67339792041DA63000DD09C /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		C673397C2041DA63000DD09C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		C673397E2041DA63000DD09C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C67339802041DA63000DD09C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C673396E2041DA63000DD09C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67339772041DA63000DD09C /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C67339602041DA62000DD09C = {
+			isa = PBXGroup;
+			children = (
+				C67339692041DA63000DD09C /* eboticonImessageTutorial */,
+				C67339782041DA63000DD09C /* eboticonImessageTutorial MessagesExtension */,
+				C67339752041DA63000DD09C /* Frameworks */,
+				C67339682041DA63000DD09C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C67339682041DA63000DD09C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C67339672041DA63000DD09C /* eboticonImessageTutorial.app */,
+				C67339712041DA63000DD09C /* eboticonImessageTutorial MessagesExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C67339692041DA63000DD09C /* eboticonImessageTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				C673396A2041DA63000DD09C /* Assets.xcassets */,
+				C673396C2041DA63000DD09C /* Info.plist */,
+			);
+			path = eboticonImessageTutorial;
+			sourceTree = "<group>";
+		};
+		C67339752041DA63000DD09C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C67339762041DA63000DD09C /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C67339782041DA63000DD09C /* eboticonImessageTutorial MessagesExtension */ = {
+			isa = PBXGroup;
+			children = (
+				C67339792041DA63000DD09C /* MessagesViewController.swift */,
+				C673397B2041DA63000DD09C /* MainInterface.storyboard */,
+				C673397E2041DA63000DD09C /* Assets.xcassets */,
+				C67339802041DA63000DD09C /* Info.plist */,
+			);
+			path = "eboticonImessageTutorial MessagesExtension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C67339662041DA63000DD09C /* eboticonImessageTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C67339872041DA63000DD09C /* Build configuration list for PBXNativeTarget "eboticonImessageTutorial" */;
+			buildPhases = (
+				C67339652041DA63000DD09C /* Resources */,
+				C67339862041DA63000DD09C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C67339742041DA63000DD09C /* PBXTargetDependency */,
+			);
+			name = eboticonImessageTutorial;
+			productName = eboticonImessageTutorial;
+			productReference = C67339672041DA63000DD09C /* eboticonImessageTutorial.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		C67339702041DA63000DD09C /* eboticonImessageTutorial MessagesExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C67339832041DA63000DD09C /* Build configuration list for PBXNativeTarget "eboticonImessageTutorial MessagesExtension" */;
+			buildPhases = (
+				C673396D2041DA63000DD09C /* Sources */,
+				C673396E2041DA63000DD09C /* Frameworks */,
+				C673396F2041DA63000DD09C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "eboticonImessageTutorial MessagesExtension";
+			productName = "eboticonImessageTutorial MessagesExtension";
+			productReference = C67339712041DA63000DD09C /* eboticonImessageTutorial MessagesExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C67339612041DA62000DD09C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Laurence Wingo";
+				TargetAttributes = {
+					C67339662041DA63000DD09C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C67339702041DA63000DD09C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C67339642041DA63000DD09C /* Build configuration list for PBXProject "eboticonImessageTutorial" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C67339602041DA62000DD09C;
+			productRefGroup = C67339682041DA63000DD09C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C67339662041DA63000DD09C /* eboticonImessageTutorial */,
+				C67339702041DA63000DD09C /* eboticonImessageTutorial MessagesExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C67339652041DA63000DD09C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C673396B2041DA63000DD09C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C673396F2041DA63000DD09C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C673397F2041DA63000DD09C /* Assets.xcassets in Resources */,
+				C673397D2041DA63000DD09C /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C673396D2041DA63000DD09C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C673397A2041DA63000DD09C /* MessagesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C67339742041DA63000DD09C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C67339702041DA63000DD09C /* eboticonImessageTutorial MessagesExtension */;
+			targetProxy = C67339732041DA63000DD09C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C673397B2041DA63000DD09C /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C673397C2041DA63000DD09C /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C67339812041DA63000DD09C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C67339822041DA63000DD09C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C67339842041DA63000DD09C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZMJGSJ72TL;
+				INFOPLIST_FILE = "eboticonImessageTutorial MessagesExtension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.neuroqa.eboticonImessageTutorial.MessagesExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C67339852041DA63000DD09C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZMJGSJ72TL;
+				INFOPLIST_FILE = "eboticonImessageTutorial MessagesExtension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.neuroqa.eboticonImessageTutorial.MessagesExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C67339882041DA63000DD09C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZMJGSJ72TL;
+				INFOPLIST_FILE = eboticonImessageTutorial/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.neuroqa.eboticonImessageTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C67339892041DA63000DD09C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZMJGSJ72TL;
+				INFOPLIST_FILE = eboticonImessageTutorial/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.neuroqa.eboticonImessageTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C67339642041DA63000DD09C /* Build configuration list for PBXProject "eboticonImessageTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67339812041DA63000DD09C /* Debug */,
+				C67339822041DA63000DD09C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C67339832041DA63000DD09C /* Build configuration list for PBXNativeTarget "eboticonImessageTutorial MessagesExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67339842041DA63000DD09C /* Debug */,
+				C67339852041DA63000DD09C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C67339872041DA63000DD09C /* Build configuration list for PBXNativeTarget "eboticonImessageTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67339882041DA63000DD09C /* Debug */,
+				C67339892041DA63000DD09C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C67339612041DA62000DD09C /* Project object */;
+}
